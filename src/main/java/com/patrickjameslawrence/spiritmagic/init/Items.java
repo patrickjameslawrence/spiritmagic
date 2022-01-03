@@ -30,4 +30,9 @@ public class Items {
 	public static final RegistryObject<Item> RUE = ITEMS.register("rue", () -> new Item(new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
 	
 	public static final RegistryObject<Item> ROWAN_WOOD = ITEMS.register("rowan_wood", () -> new BlockItem(Blocks.ROWAN_WOOD.get(), new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
+	public static final RegistryObject<Item> STRIPPED_ROWAN_WOOD = ITEMS.register("stripped_rowan_wood", () -> new BlockItem(Blocks.STRIPPED_ROWAN_WOOD.get(), new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
+	public static final RegistryObject<Item> ROWAN_LOG = ITEMS.register("rowan_log", () -> new BlockItem(Blocks.ROWAN_LOG.get(), new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
+	public static final RegistryObject<Item> STRIPPED_ROWAN_LOG = ITEMS.register("stripped_rowan_log", () -> new BlockItem(Blocks.STRIPPED_ROWAN_LOG.get(), new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
+	public static final RegistryObject<Item> ROWAN_PLANKS = ITEMS.register("rowan_planks", () -> new BlockItem(Blocks.ROWAN_PLANKS.get(), new Item.Properties().tab(TAB_SPIRITMAGIC).stacksTo(64)));
+
 }

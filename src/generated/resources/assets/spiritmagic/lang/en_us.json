@@ -1,0 +1,14 @@
+{
+  "block.spiritmagic.rowan_log": "Rowan Log",
+  "block.spiritmagic.rowan_planks": "Rowan Planks",
+  "block.spiritmagic.rowan_wood": "Rowan Wood",
+  "block.spiritmagic.stripped_rowan_log": "Stripped Rowan Log",
+  "block.spiritmagic.stripped_rowan_wood": "Stripped Rowan Wood",
+  "item.spiritmagic.aconite": "Aconite",
+  "item.spiritmagic.belladonna": "Belladonna",
+  "item.spiritmagic.datura": "Datura",
+  "item.spiritmagic.mandrake": "Mandrake",
+  "item.spiritmagic.rue": "Rue",
+  "item.spiritmagic.sage": "Sage",
+  "itemGroup.spiritmagic": "Spirit Magic"
+}
