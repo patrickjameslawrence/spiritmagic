@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "spiritmagic:block/rowan_log",
+    "end": "spiritmagic:block/rowan_log"
+  }
+}

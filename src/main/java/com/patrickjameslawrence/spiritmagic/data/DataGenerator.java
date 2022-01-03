@@ -1,5 +1,7 @@
 package com.patrickjameslawrence.spiritmagic.data;
 
+import com.patrickjameslawrence.spiritmagic.data.client.BlockStateProvider;
+import com.patrickjameslawrence.spiritmagic.data.client.ItemModelProvider;
 import com.patrickjameslawrence.spiritmagic.data.client.LanguageProvider;
 
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -25,6 +27,8 @@ public class DataGenerator {
     	
     	if (event.includeClient()) {
     		dataGenerator.addProvider(new LanguageProvider(dataGenerator, "en_us"));
+    		dataGenerator.addProvider(new BlockStateProvider(dataGenerator, existingFileHelper));
+    		dataGenerator.addProvider(new ItemModelProvider(dataGenerator, existingFileHelper));
     	}
 	}
 }
