@@ -3,6 +3,8 @@ package com.patrickjameslawrence.spiritmagic.data;
 import com.patrickjameslawrence.spiritmagic.data.client.BlockStateProvider;
 import com.patrickjameslawrence.spiritmagic.data.client.ItemModelProvider;
 import com.patrickjameslawrence.spiritmagic.data.client.LanguageProvider;
+import com.patrickjameslawrence.spiritmagic.data.tag.BlockTagsProvider;
+import com.patrickjameslawrence.spiritmagic.data.tag.ItemTagsProvider;
 
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

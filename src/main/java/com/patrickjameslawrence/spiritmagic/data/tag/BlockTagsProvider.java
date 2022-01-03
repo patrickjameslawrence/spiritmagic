@@ -1,4 +1,4 @@
-package com.patrickjameslawrence.spiritmagic.data;
+package com.patrickjameslawrence.spiritmagic.data.tag;
 
 import com.patrickjameslawrence.spiritmagic.SpiritMagic;
 import com.patrickjameslawrence.spiritmagic.init.Blocks;
