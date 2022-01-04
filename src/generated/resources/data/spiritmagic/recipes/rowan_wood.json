@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "spiritmagic:rowan_log"
+    }
+  },
+  "result": {
+    "item": "spiritmagic:rowan_wood",
+    "count": 3
+  }
+}

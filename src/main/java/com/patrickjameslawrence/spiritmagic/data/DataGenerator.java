@@ -3,6 +3,7 @@ package com.patrickjameslawrence.spiritmagic.data;
 import com.patrickjameslawrence.spiritmagic.data.client.BlockStateProvider;
 import com.patrickjameslawrence.spiritmagic.data.client.ItemModelProvider;
 import com.patrickjameslawrence.spiritmagic.data.client.LanguageProvider;
+import com.patrickjameslawrence.spiritmagic.data.loot.LootTableProvider;
 import com.patrickjameslawrence.spiritmagic.data.tag.BlockTagsProvider;
 import com.patrickjameslawrence.spiritmagic.data.tag.ItemTagsProvider;
 
@@ -26,6 +27,8 @@ public class DataGenerator {
     	
     	dataGenerator.addProvider(blockTagsProvider);
     	dataGenerator.addProvider(new ItemTagsProvider(dataGenerator, blockTagsProvider, existingFileHelper));
+    	dataGenerator.addProvider(new LootTableProvider(dataGenerator));
+    	dataGenerator.addProvider(new RecipeProvider(dataGenerator));
     	
     	if (event.includeClient()) {
     		dataGenerator.addProvider(new LanguageProvider(dataGenerator, "en_us"));

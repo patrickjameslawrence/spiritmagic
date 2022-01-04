@@ -15,7 +15,7 @@ public class BlockTagsProvider extends net.minecraft.data.tags.BlockTagsProvider
 	@Override
 	protected void addTags() {
 		// TODO: Add crops and bee growables
-		this.tag(BlockTags.ROWAN_LOGS).add(Blocks.ROWAN_WOOD.get(), Blocks.STRIPPED_ROWAN_WOOD.get(), Blocks.ROWAN_LOG.get(), Blocks.STRIPPED_ROWAN_LOG.get(), Blocks.ROWAN_PLANKS.get());
+		this.tag(BlockTags.ROWAN_LOGS).add(Blocks.ROWAN_WOOD.get(), Blocks.STRIPPED_ROWAN_WOOD.get(), Blocks.ROWAN_LOG.get(), Blocks.STRIPPED_ROWAN_LOG.get());
 		
 		this.tag(net.minecraft.tags.BlockTags.PLANKS).add(Blocks.ROWAN_PLANKS.get());
 		this.tag(net.minecraft.tags.BlockTags.LOGS_THAT_BURN).addTags(BlockTags.ROWAN_LOGS);
