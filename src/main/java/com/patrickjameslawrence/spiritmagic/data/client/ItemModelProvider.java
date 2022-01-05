@@ -24,5 +24,17 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         withExistingParent("rowan_log", modLoc("block/rowan_log"));
         withExistingParent("stripped_rowan_log", modLoc("block/stripped_rowan_log"));
         withExistingParent("rowan_planks", modLoc("block/rowan_planks"));
+        withExistingParent("rowan_stairs", modLoc("block/rowan_stairs"));
+        withExistingParent("rowan_slab", modLoc("block/rowan_slab"));
+        withExistingParent("rowan_fence", modLoc("block/rowan_fence_inventory"));
+        withExistingParent("rowan_fence_gate", modLoc("block/rowan_fence_gate"));
+        getBuilder("rowan_door").parent(getExistingFile(mcLoc("item/generated"))).texture("layer0", modLoc("item/rowan_door"));
+        withExistingParent("rowan_trapdoor", modLoc("block/rowan_trapdoor_bottom"));
+        withExistingParent("rowan_pressure_plate", modLoc("block/rowan_pressure_plate"));
+        withExistingParent("rowan_button", modLoc("block/rowan_button_inventory"));
+        // getBuilder("rowan_sign").parent(getExistingFile(mcLoc("item/generated"))).texture("layer0", modLoc("item/rowan_sign"));
+        // getBuilder("rowan_sapling").parent(getExistingFile(mcLoc("item/generated"))).texture("layer0", modLoc("item/rowan_sapling"));
+        withExistingParent("rowan_leaves", modLoc("block/rowan_leaves"));
+        // getBuilder("rowan_boat").parent(getExistingFile(mcLoc("item/generated"))).texture("layer0", modLoc("item/rowan_boat"));
 	}
 }

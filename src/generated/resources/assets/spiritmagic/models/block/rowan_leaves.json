@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "spiritmagic:block/rowan_leaves"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "spiritmagic:block/rowan_slab_top"
+    },
+    "type=bottom": {
+      "model": "spiritmagic:block/rowan_slab"
+    },
+    "type=double": {
+      "model": "spiritmagic:block/rowan_planks"
+    }
+  }
+}

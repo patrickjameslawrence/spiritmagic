@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "bottom": "spiritmagic:block/rowan_door_bottom",
+    "top": "spiritmagic:block/rowan_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "spiritmagic:block/rowan_planks"
+  }
+}
